@@ -4,16 +4,70 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Shop Style</title>
+	<style>
+		h2 {
+			color: Purple;
+		}
 
-		<!-- google fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+		p {
+			color: Red;
+		}
+
+		img{
+	width: 300px;
+}
+
+		.img-container {
+        text-align: center;
+      }
+
+      section {
+      	text-align: left;
+      }
+
+	</style>
 
 </head>
 <body>
 
+	 <div class="img-container"> <!-- Block parent element -->
+
 	<h1 class="text-center">Welcome to Shop Style</h1>
+	<p> To our Dear Customers, Thank you for choosing to visit our website, Shop Style. Our shop offers a few clothings so please enjoy your shopping. </p>
 	
+	</section>
+	
+	<section id="Register">
+		<h2>Register</h2>
+		<form>
+			<label for="first-name">First Name:</label>
+			<input type="text" id="first-name" required autocomplete />
+
+			<label for="last name">Last Name:</label>
+			<input type="text" id="last-name" required autocomplete />
+
+			<label for="email">Email Address:</label>
+			<input type="email" id="email" required autocomplete />
+
+			<button type="submit">Register!</button>
+
+		</form>
+	</section>
+
+	<h2>Products</h2>
+	<img src="/assets/images/crop top.png">
+	<div>
+	<alt>crop top ₱99</alt>
+</div>
+	<div>
+	<img src="/assets/images/dress.JPEG" alt="dress">
+</div>
+	<div>
+		<alt>dress ₱150</alt>
+	</div>
+	<img src="/assets/images/shorts.JPEG" alt="shorts">
+	<div>
+		<alt>shorts ₱200</alt>
+	</div>
 </body>
 </html>
